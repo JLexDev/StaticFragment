@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="horizontal"
+    android:background="#bbffb2"
+    android:padding="10dp">
+
+
+    <!-- Fragment ONE -->
+    <fragment
+        android:name="jlexdev.com.staticfragment.OneFragment"
+        android:id="@+id/fragment_one"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <!-- Fragment TWO -->
+    <fragment
+        android:name="jlexdev.com.staticfragment.TwoFragment"
+        android:id="@+id/fragment_two"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+
+
+    
+</LinearLayout>
